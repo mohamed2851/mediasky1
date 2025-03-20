@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+*{
+    color:   #021357;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.containerrr {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.icon {
+    font-size: 24px;
+    color: #d63384;
+    margin: 0 10px;
+}
+
+.buttons .btn {
+    display: block;
+    background: linear-gradient(to right, #120b62, #2a1295);
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.note {
+    color: #666;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.store-link {
+    color:#120b62;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* hover==================== */
+.social-icons i:hover {
+    color:#2a1295;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+.buttons .btn:hover{
+    background-color:#2a1295;
+    animation: heartbeats 1s infinite;
+}
+@keyframes heartbeats {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+}
